@@ -6,4 +6,7 @@ def fun4(a, b):
     return a/b
 
 a, b = int(input()), int(input())
-fun4(a, b)
+c = fun4(a, b)
+print(c)
+
+
